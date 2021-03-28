@@ -17,14 +17,25 @@ int sumFuelReq()
 
     char line[50];
     int sum=0;
+    double reqFuel =0;
     while(inFile >> line)
     {
+
         cout << line << endl;
         int number = std::stoi(line);
         printf("number:%d\n",number);
-        double reqFuel = floor((number/3))-2;
+        reqFuel = floor((number/3))-2;
         cout << reqFuel << endl;
         sum += reqFuel;
+        while(reqFuel >= 0)
+        {
+            reqFuel = floor((reqFuel/3))-2;
+            if(reqFuel > 0)
+            {
+                sum += reqFuel;
+            }
+
+        }
     }
     cout << "Total required fuel:" << sum << endl;
     return 0;

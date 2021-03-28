@@ -32,9 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="data/2019-01-1/2019-01-1-data-example.txt" />
-		<Unit filename="data/2019-01-1/2019-01-1-data.txt" />
-		<Unit filename="main.cpp" />
+		<Unit filename="data/2019-01/2019-01-1-data-example.txt" />
+		<Unit filename="data/2019-01/2019-01-1-data.txt" />
+		<Unit filename="src/2019-01-2.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
