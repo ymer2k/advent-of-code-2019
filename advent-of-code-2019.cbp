@@ -32,9 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add directory="$(#boost.lib)" />
+		</Linker>
 		<Unit filename="data/2019-02/2019-02-01-data-example.txt" />
 		<Unit filename="data/2019-02/2019-02-01-data.txt" />
-		<Unit filename="src/2019-02-2.cpp" />
+		<Unit filename="data/2019-03/2019-03-1-data.txt" />
+		<Unit filename="src/2019-03-1.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
