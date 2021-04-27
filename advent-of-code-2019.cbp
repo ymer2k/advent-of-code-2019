@@ -39,7 +39,7 @@
 		<Unit filename="data/2019-02/2019-02-01-data.txt" />
 		<Unit filename="data/2019-03/2019-03-1-data.txt" />
 		<Unit filename="data/2019-04/2019-03-1-data.txt" />
-		<Unit filename="src/2019-04-1.cpp" />
+		<Unit filename="src/2019-04-2.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
